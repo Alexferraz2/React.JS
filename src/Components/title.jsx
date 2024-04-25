@@ -1,14 +1,20 @@
-import styles from  "@/Components/Title.module.css";
+/*
+    Exemplo de componentes react com childrens(filhos)
+*/
+
+import styles from '@/Components/Title.module.css'
+
 
 
 const funcao = () => 'Função qualquer!!!'
 const valor = 'Título'
-export function Title(props) {
+export function Title( {text, texto, children}) {
     return(
         <div>
             <h1 className={styles.title}>
-                {props.text}
-                {props.children}
+                {text}
+                {texto}
+                {children}
                 
             </h1>
             {funcao()}
