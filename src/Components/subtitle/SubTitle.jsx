@@ -5,7 +5,7 @@
 export function SubTitle({Newtext}) {
     return(
         <div>
-            <h4>Subtítulo</h4>
+            
             <p>{Newtext}</p>
         </div>
         

@@ -1,0 +1,12 @@
+.header{
+    min-height: 80vh;
+    
+    display: flex;    
+    align-items: center;
+    
+    flex-direction: column;
+}
+
+.headerContent {
+    padding-left: 60px;
+}

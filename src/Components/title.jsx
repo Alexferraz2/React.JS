@@ -17,7 +17,7 @@ export function Title( {text, texto, children}) {
                 {children}
                 
             </h1>
-            {funcao()}
+           
         </div>
     )
 }
